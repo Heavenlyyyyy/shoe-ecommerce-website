@@ -42,6 +42,9 @@
 
 <body>
     <?php include('header.php'); ?>
+    <div class="wrapper hovercollapse">
+        <?php include('navbar.php'); ?>
+    </div>
 </body>
 
 </html>
