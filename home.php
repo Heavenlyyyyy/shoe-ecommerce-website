@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
+    <link rel="shortcut icon" href="images/Logo.ico" />
     <title>Urban Shoes Online Shop | Urban Shoes MY</title>
     <style>
         <?php include('style.php'); ?>
