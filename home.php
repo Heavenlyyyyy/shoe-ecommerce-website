@@ -45,6 +45,7 @@
     <div class="wrapper hovercollapse">
         <?php include('navbar.php'); ?>
     </div>
+    <?php include('footer.php'); ?>
 </body>
 
 </html>
