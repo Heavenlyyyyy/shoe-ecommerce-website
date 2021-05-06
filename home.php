@@ -44,6 +44,15 @@
     <?php include('header.php'); ?>
     <div class="wrapper hovercollapse">
         <?php include('navbar.php'); ?>
+        <div class="maincontainer">
+            <div class="container">
+                <div class="content">
+                    <div class="container1">
+                        <img src="images/anniversary.png" alt="home" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <?php include('footer.php'); ?>
 </body>

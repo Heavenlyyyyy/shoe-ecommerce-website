@@ -126,6 +126,28 @@ header a:hover{
     background-color: rgb(225,225,225);
 }
 
+.maincontainer{
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 25px;
+    width: calc(100%-75px);
+}
+
+.maincontainer .small-container {
+    margin-bottom: 25px;
+    text-align:left;
+}
+
+.clickcollapse .sidebar{
+    transition: all 0.1s ease;
+}
+
+.clickcollapse .maincontainer{
+    margin-left: 200px;
+    width:calc(100%-200px);
+    transition: all 0.1s ease;
+}
+
 footer {
     background:black;
     color:white;
