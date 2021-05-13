@@ -126,6 +126,54 @@ header a:hover{
     background-color: rgb(225,225,225);
 }
 
+.sidebar {
+    position:absolute;
+    top: 100px;
+    left:0;
+    width: 12.8%;
+    height:100%;
+    background: white;
+    border-right: 0.1px solid whitesmoke;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 12px 25px;
+    color: black;
+    border-top: 0.2px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    transition: all 0.1s ease;
+}
+
+.sidebar ul li a .icon {
+    font-size: 20px;
+    vertical-align: middle;
+    transition: all 0.1s ease;
+}
+
+.sidebar ul li a .text {
+    margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sidebar ul li a:hover {
+    background: rgb(225,225,225);
+    color:rgb(160,160,160);
+}
+
+.sidebar ul li a .text {
+    color: black;
+}
+
+.hovercollapse .sidebar{
+    width: 75px;
+}
+
+.hovercollapse .sidebar ul li a .text {
+    display: none;
+}
+
 .maincontainer{
     margin-top: 10px;
     margin-left: 100px;

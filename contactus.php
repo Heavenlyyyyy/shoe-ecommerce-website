@@ -67,6 +67,7 @@
     <?php include('header.php'); ?>
     <div class="wrapper hovercollapse">
         <?php include('navbar.php'); ?>
+        <?php include('sidebar.php'); ?>
         <div class="maincontainer">
             <div class="container">
                 <div class="content">

@@ -13,6 +13,7 @@
     <?php include('header.php'); ?>
     <div class="wrapper hovercollapse">
         <?php include('navbar.php'); ?>
+        <?php include('sidebar.php'); ?>
     </div>
     <?php include('footer.php'); ?>
     <script src="scripts.js"></script>
