@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Console  ";
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  overflow: hidden;
+  width: 350px;
+  display:block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.header img{
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width:250px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header2{
+  margin-left: auto;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+/* Categoreis */
+.cate {
+  padding: 10px;
+}
+
+.cate a{
+  padding: 5px;
+  text-decoration: none;
+}
+
+.main{
+  display:block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* images */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float:left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+  background: #ddd;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* Social media icon */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  box-sizing: unset;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
