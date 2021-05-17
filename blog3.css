@@ -1,0 +1,137 @@
+/* header */
+.header{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.header h1{
+    font-family: fantasy;
+    background-color: lightgray;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header p{
+    background-color: grey;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+}
+
+/* Body */
+.body{
+    padding-bottom: 10px;
+    width: 1000px;
+    box-shadow: 8px 8px 8px 8px #888888;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cate {
+    padding: 10px;
+}
+
+.cate a{
+    padding: 5px;
+    color: black;
+}
+
+.body p, h1, h5, h2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.body p{
+    font-size: 20px;
+}
+.title h1{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title img{
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+}
+
+.images{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.price{
+    margin-left: 100px;
+    padding: 3px;
+    background-color: yellow;
+    width: 250px;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
+/* Social media icon */
+.icon{
+    padding-left: 100px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    box-sizing: unset;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
