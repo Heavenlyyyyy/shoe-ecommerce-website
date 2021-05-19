@@ -50,6 +50,9 @@
                 <div class="content">
                     <div class="container1">
                         <img src="images/anniversary.png" alt="home" width="100%">
+                        <a href="maindashboard.php">
+                            <button class="shop">Shop Now</button>
+                        </a>
                     </div>
                 </div>
             </div>
