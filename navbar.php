@@ -1,3 +1,6 @@
+<?php
+    include('session.php');
+?>
         <div class="topnavbar">
             <div class="logo">
                 <a href="home.php"><img src="images/Logo.jpg" alt="logo" width="125px"></a>
@@ -8,3 +11,11 @@
                 </div>
             </div>
         </div>
+    
+   
+
+    
+    
+    
+        
+    

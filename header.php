@@ -1,3 +1,8 @@
+<?php
+    include('session.php');
+    
+    // If SESSION not Started => Guest
+    if(!isset($_SESSION['user_type'])): ?>
     <header>
         <div>
             <nav aria-label="Header Nav">
