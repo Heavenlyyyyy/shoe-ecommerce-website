@@ -192,6 +192,89 @@
                     </br>
                     </br>
 
+                    <div class="row">
+
+                    <?php 
+                    $data = 1;
+                    //$query = "SELECT * FROM prod_tb ORDER BY prod_name, prod_category WHERE prod_availability = $data"; 
+                    $query = "SELECT * FROM prod_tb ORDER BY prod_name, prod_category"; 
+    
+                    if ($result = $conn->query($query)) 
+                    {
+                        while ($row = $result->fetch_assoc()) 
+                        {
+                            $e1 = $row["prod_pk"];
+                            $e2 = $row["prod_name"];
+                            $e3 = $row["prod_s35"];
+                            $e4 = $row["prod_s36"];
+                            $e5 = $row["prod_s37"];
+                            $e6 = $row["prod_s38"];
+                            $e7 = $row["prod_s39"];
+                            $e8 = $row["prod_s40"];
+                            $e9 = $row["prod_s41"];
+                            $e10 = $row["prod_s42"];
+                            $e11 = $row["prod_s43"];
+                            $e12 = $row["prod_s44"];
+                            $e13 = $row["prod_s45"];
+                            $e14 = $row["prod_brand"];
+                            $e15 = $row["prod_category"];
+                            $e16 = $row["prod_gender"];
+                            $e17 = $row["prod_year"];
+                            $e18 = $row["prod_price"];
+                            $e19 = $row["prod_discount"];
+
+                            
+                            $discount = convertToDiscount($e19);
+                            if($discount == 1){
+                                $discountedPrice = $e18;
+                                $displayDiscount = 0;
+                            }
+                            else{
+                                $discountedPrice = ($e18 * (100-$discount))*0.01;
+                                $displayDiscount = $discount;
+                            }
+
+                            $e20 = $row["prod_availability"];
+                            $e21 = $row['prod_image'];
+                    ?>
+
+                        <div class="col1 <?php echo $e16; ?> <?php echo $e15; ?> <?php echo $e14; ?> <?php echo $e17; ?>">
+                            <a href="product.php?id=<?php echo $e1; ?>">
+                                
+                                <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($e21); ?>"/>
+                                <h4><?php echo $e2; ?></h4>
+                                <p class="price" style="color: coral;">$<?php echo number_format((float) $discountedPrice, 2, '.', ''); ?></p>
+                                <p><s style="color:darkgray">$<?php echo $e18; ?></s><?php if($displayDiscount != 0) {echo "-"; echo $displayDiscount; echo "%";}?></p>
+                            </a>
+                        </div>
+
+                        <!--
+                        <div class="col1 men casual vans 2018">
+                            <a href="product1.php">
+                                <img src="ShoesList/Shoes/26.jpg">
+                                <h4>Vans Old Skool</h4>
+                                <p class="price" price-value = "260" style="color: coral;">$260</p>
+                                <p><s style="color:darkgray">$312</s>-20%</p>
+                            </a>
+                        </div>
+                            -->
+
+                        <?php
+                            }  
+                            $result->free();
+                        }
+                        ?>
+
+                    </div>
+                    
+                    <div class="page-btn">
+                        <span><a href="maindashboard.php">1</a></span>
+                        <span><a href="product1.php">2</a></span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span><a href="product1.php">&#8594</a></span>
+                    </div>
+
                 </div>
         </div>
     </div>
