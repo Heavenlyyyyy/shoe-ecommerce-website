@@ -499,3 +499,22 @@ footer h3{
     box-shadow: 0 0 5px 0px rgba(0,0,0,0.5);
 }
 
+/*MEN,WOMEN,KIDS*/  
+.title{
+    text-align:center;
+    margin:0 auto 50px;
+    position: relative;
+    line-height: 60px;
+    color:#555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width:80px;
+    height: 5px;
+    border-radius:5px;
+    position: absolute;
+    left:50%;
+    bottom:-30px;
+    transform:translate(-50%);
+}   
