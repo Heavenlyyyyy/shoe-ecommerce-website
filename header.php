@@ -14,3 +14,28 @@
         </div>
     </header>
 
+<?php
+    else: 
+?>      
+        <?php // Admin
+            if($_SESSION['user_type'] == 'admin'): ?>
+            <header>
+                <div>
+                    <nav aria-label="Header Nav">
+                        <a style="color:black;">Welcome, <b><?php echo $login_session; ?></b> (Admin)</a>
+                        &nbsp;
+                        &nbsp;
+                        <a href="blog.php">Blog</a>
+                        &nbsp;
+                        &nbsp;
+                        <a href="manageProducts.php">Manage Products</a>
+                        &nbsp;
+                        &nbsp;
+                        <a href="logout.php">Logout</a>
+                    </nav>
+                </div>
+            </header>
+
+        <?php endif; ?> 
+
+    <?php endif; ?> 
