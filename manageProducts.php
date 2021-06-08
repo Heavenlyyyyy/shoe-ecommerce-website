@@ -1,3 +1,13 @@
+<?php
+    if(!isset($_SESSION) ){    
+        session_start(); }
+
+    include('session.php');
+    require_once('debug.php');
+    include('db_config.php');
+    $conn = mysqli_connect($servername, $username, $password, $db); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,6 +93,13 @@
     </div>
     <?php include('footer.php'); ?>
     
+    <script src="scripts.js">
+        function popup() {
+            var myWindow = window.open("", "_self", "width=200,height=100");
+            myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
+
+        }
+    </script>
     
 </body>
 
