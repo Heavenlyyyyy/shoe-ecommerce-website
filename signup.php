@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <link rel="shortcut icon" href="images/Logo.ico" />
-    <title>Urban Shoes Online Shop | Account Register</title>
+    <title>Account Registration | Urban Shoes</title>
     <style>
-        <?php include 'styles.css'; ?>
-        .title {
+        <?php include 'styles.css'; ?>.title {
             margin-left: 35px;
         }
 
@@ -53,7 +52,7 @@
             margin-left: 35px;
         }
 
-        .content{
+        .content {
             background-image: url('images/signup_background.gif');
             background-repeat: no-repeat;
             background-position: right;
@@ -61,24 +60,26 @@
             background-color: black;
         }
 
-        .title{
+        .title {
             color: white;
         }
 
-        h2, .title{
+        h2,
+        .title {
             padding-top: 18px;
         }
 
-        p, .title{
+        p,
+        .title {
             padding-top: -10px;
             padding-bottom: 10px;
         }
 
-        label{
+        label {
             color: white;
         }
 
-        .login{
+        .login {
             color: white;
         }
     </style>
@@ -117,11 +118,10 @@
                         <input type="password" placeholder="Repeat Password again" name="user_pass" required><br>
 
                         <label>
-                            <input type="checkbox" name="tnc" required> I have read and agree to the <a href="t&c.html"
-                                style="color: rgb(120,120,120);">Terms & Conditions</a>.
+                            <input type="checkbox" name="tnc" required> I have read and agree to the <a href="t&c.html" style="color: rgb(120,120,120);">Terms & Conditions</a>.
                         </label><br><br>
 
-                        <button class="button signupbtn" type="submit" name="submit" >Sign Up</button><br><br>
+                        <button class="button signupbtn" type="submit" name="submit">Sign Up</button><br><br>
                     </form>
 
                     <p class="login">Already have an account?<a class="link" href="login.php">Login here!</a></p>

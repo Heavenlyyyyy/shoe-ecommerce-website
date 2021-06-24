@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <link rel="shortcut icon" href="images/Logo.ico" />
-    <title>Urban Shoes Online Shop | Contact Us</title>
+    <title>Contact Us | Urban Shoes</title>
     <style>
-        <?php include 'styles.css'; ?>
-        input[type=text],
+        <?php include 'styles.css'; ?>input[type=text],
         input[type=email],
         select,
         textarea {
@@ -71,8 +70,8 @@
         <div class="maincontainer">
             <div class="container">
                 <div class="content">
-                                        <!--CONTENT: -->
-                                        <div class="ContactInformation">
+                    <!--CONTENT: -->
+                    <div class="ContactInformation">
                         <h1> Contact Us </h1>
 
                         <p>
@@ -93,10 +92,8 @@
                             9:00p.m. (every Monday to Saturday).
                         </p>
                         <p>
-                            </br><strong> Our twitter: </strong><a href="http://www.twitter.com/Urbanshoes"
-                                data-mce-href="http://www.twitter.com/Urbanshoes"> @Urbanshoes</a> </br>
-                            <strong> Our facebook: </strong> <a href="http://www.facebook.com/Urbanshoes"
-                                data-mce-href="http://www.facebook.com/Urbanshoes">Urbanshoes</a>
+                            </br><strong> Our twitter: </strong><a href="http://www.twitter.com/Urbanshoes" data-mce-href="http://www.twitter.com/Urbanshoes"> @Urbanshoes</a> </br>
+                            <strong> Our facebook: </strong> <a href="http://www.facebook.com/Urbanshoes" data-mce-href="http://www.facebook.com/Urbanshoes">Urbanshoes</a>
 
                         </p>
                     </div>
@@ -108,19 +105,16 @@
                             <input type="text" id="name" name="name" placeholder="Enter full name here" required>
 
                             <label for="email">Email address: </label>
-                            <input type="email" id="email" name=emailadd placeholder="Enter email here" maxlength="80"
-                                required>
+                            <input type="email" id="email" name=emailadd placeholder="Enter email here" maxlength="80" required>
 
                             <label for="subject">Subject: </label>
                             <input type="text" id="subject" name="subject" placeholder="Enter subject here" required>
 
                             <label for="description">Description: </label>
-                            <textarea id="description" name="description" cols=20 rows=5
-                                placeholder="Write your message here... " required></textarea>
+                            <textarea id="description" name="description" cols=20 rows=5 placeholder="Write your message here... " required></textarea>
 
                             <label for="orderNo">Order Number: </label>
-                            <input type="text" id="orderNo" maxlength="10" name="orderNo"
-                                placholder="Enter order number here" title="orderNo" required>
+                            <input type="text" id="orderNo" maxlength="10" name="orderNo" placholder="Enter order number here" title="orderNo" required>
 
                             <input type="submit" name="button" value="Submit">
                         </form>

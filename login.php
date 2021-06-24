@@ -1,9 +1,10 @@
 <?php
-if(!isset($_SESSION) ){     
-    session_start();    }
+if (!isset($_SESSION)) {
+    session_start();
+}
 
-    include('loginScript.php'); 
-    /*
+include('loginScript.php');
+/*
     if(isset($_SESSION['logged_in'])){
        header("location: maindashboard.php"); 
     }    
@@ -11,7 +12,7 @@ if(!isset($_SESSION) ){
        header("location: user_page.php");
     }
     */
-?> 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,10 +21,9 @@ if(!isset($_SESSION) ){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <link rel="shortcut icon" href="images/Logo.ico" />
-    <title>Urban Shoes Online Shop | Account Login</title>
+    <title>Account Login | Urban Shoes</title>
     <style>
-        <?php include 'styles.css'; ?>
-        .title {
+        <?php include 'styles.css'; ?>.title {
             margin-left: 35px;
         }
 
@@ -47,7 +47,7 @@ if(!isset($_SESSION) ){
             padding: 10px;
             margin-top: 10px;
             margin-bottom: 10px;
-            display: inline-block; 
+            display: inline-block;
             border: none;
             background: whitesmoke;
         }
@@ -67,28 +67,27 @@ if(!isset($_SESSION) ){
             margin-left: 35px;
         }
 
-        .content{
+        .content {
             background-image: url('images/login_background.gif');
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 220%;
         }
 
-        .title{
+        .title {
             color: white;
         }
 
-        h1{
+        h1 {
             padding-top: 10px;
         }
 
-        .register{
+        .register {
             color: white;
             text-align: center;
             padding-top: 20px;
             padding-bottom: 20px;
         }
-
     </style>
 </head>
 

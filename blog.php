@@ -1,7 +1,8 @@
 <?php
-    if(!isset($_SESSION) ){    
-        session_start(); }
-        ?>
+if (!isset($_SESSION)) {
+    session_start();
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,11 +10,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
-    <title>Urban Shoes Online Shop | Urban Shoes MY</title>
-        <link rel="shortcut icon" href="images/Logo.ico" />
-        <link rel="stylesheet" href="blog.css">
+    <title>Urban Shoes Online Shop | MY</title>
+    <link rel="shortcut icon" href="images/Logo.ico" />
+    <link rel="stylesheet" href="blog.css">
     <style>
-        <?php include 'style.php'; ?>
+        <?php include 'styles.css'; ?>
     </style>
 </head>
 
@@ -55,7 +56,8 @@
                             <div class="clearfix"></div>
                         </div>
                         <hr>
-                        <br><br><h2>More comming soon!</h2>
+                        <br><br>
+                        <h2>More comming soon!</h2>
                     </div>
                 </div>
             </div>

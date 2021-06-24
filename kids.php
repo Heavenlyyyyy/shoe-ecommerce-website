@@ -1,7 +1,8 @@
 <?php
-    include('session.php');
-    if(!isset($_SESSION) ){     
-        session_start(); }
+include('session.php');
+if (!isset($_SESSION)) {
+    session_start();
+}
 ?>
 
 <!DOCTYPE html>
@@ -11,10 +12,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <link rel="shortcut icon" href="images/Logo.ico" />
-    <title>Urban Shoes Online Shop | Kids Shoes</title>
+    <title>Kids | Urban Shoes</title>
     <style>
-        <?php include 'styles.css'; ?>
-        .content h2 {
+        <?php include 'styles.css'; ?>.content h2 {
             font-size: 26px;
             padding-bottom: 15px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -70,60 +70,60 @@
                 </div>
             </div>
 
-            <div class="small-container1" style="margin-top: 50px;" >
+            <div class="small-container1" style="margin-top: 50px;">
                 <div class="row row2">
-                    <h2 class ="title">Featuring Products</h2>
+                    <h2 class="title">Featuring Products</h2>
                 </div>
             </div>
 
-            <div class="small-container"style="margin-top: 40px;">
+            <div class="small-container" style="margin-top: 40px;">
                 <div class="row">
                     <div class="colSingleProduct kid sport nike 2021">
                         <img src="ShoesList/Shoes/75.jpg">
                         <h4>Jordan Air 6 Retro "Carmine" Children</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$299</p>
+                        <p class="price" price-value="259" style="color: coral;">$299</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                     <div class="colSingleProduct kid slide addidas 2021">
                         <img src="ShoesList/Shoes/76.jpg">
                         <h4>ADIDAS Swim Sandals Infant</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$119</p>
+                        <p class="price" price-value="259" style="color: coral;">$119</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
 
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/83.jpg">
                         <h4>PUMA Shuffle x Peanuts Junior</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                 </div>
             </div>
 
-            <div class="small-container1" style="margin-top: 50px;" >
+            <div class="small-container1" style="margin-top: 50px;">
                 <div class="row row2">
                     <h2 class="title">Lastest Products</h2>
                 </div>
             </div>
 
-            <div class="small-container"style="margin-top: 40px;">
+            <div class="small-container" style="margin-top: 40px;">
                 <div class="row">
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/77.jpg">
                         <h4>ADIDAS RapidaZen Infant</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/78.jpg">
                         <h4>adidas Originals Forum Low Junior</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/79.jpg">
                         <h4>adidas Tensaur Children</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                 </div>
@@ -131,19 +131,19 @@
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/85.jpg">
                         <h4>PUMA Carina Junior</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/86.jpg">
                         <h4>Vans Sk8-Hi Junior</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                     <div class="colSingleProduct kid casual puma 2021">
                         <img src="ShoesList/Shoes/87.jpg">
                         <h4>Vans Old Skool Junior</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$229</p>
+                        <p class="price" price-value="259" style="color: coral;">$229</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                 </div>

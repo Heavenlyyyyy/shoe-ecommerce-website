@@ -1,8 +1,9 @@
 <?php
-    if(!isset($_SESSION) ){     
-        session_start(); }
-    
-    include('session.php');
+if (!isset($_SESSION)) {
+    session_start();
+}
+
+include('session.php');
 ?>
 
 <!DOCTYPE html>
@@ -12,141 +13,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,inital-scale=1.0">
     <link rel="shortcut icon" href="images/Logo.ico" />
-    
-    <title>Urban Shoes Online Shop | Shop</title>
+
+    <title>Shop | Urban Shoes</title>
     <style>
-        <?php include('style.php'); ?>
+        <?php include 'styles.css'; ?>
+
         /*--Product Page--*/
-.small-container2{
-    max-width: 1300px;
-    margin : auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.1);
-}
+        .small-container2 {
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
+        }
 
-.row2{
-    justify-content: space-between;
-    margin: 10px auto 20px;
-}
-/* -- Single product details -- */
+        .row2 {
+            justify-content: space-between;
+            margin: 10px auto 20px;
+        }
 
-.singleProduct{
-    margin-top: 30px;
-    box-shadow: rgb(59, 119, 119);
-}
+        /* -- Single product details -- */
 
-.singleProduct .col2 img{
-    padding:0;
-}
+        .singleProduct {
+            margin-top: 30px;
+            box-shadow: rgb(59, 119, 119);
+        }
 
-.singleProduct .col2{
-    padding:10px;
-}
-.singleProduct .col3{
-    margin-bottom: 30px;
-}
+        .singleProduct .col2 img {
+            padding: 0;
+        }
 
-.singleProduct h4{
-    margin: 20px 0;
-    font-size: 22px;
-    font-weight: bold;
-}
-.singleProduct select{
-    display: block;
-    padding: 10px;
-    margin-top: 20px;
-}
+        .singleProduct .col2 {
+            padding: 10px;
+        }
 
-.singleProduct input{
-    width: 50px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 20px;
-    margin-right: 10px;
-    border: 1px solid ;
-}
+        .singleProduct .col3 {
+            margin-bottom: 30px;
+        }
 
-.singleProduct h6{
-    margin: 5px 0;
-    font-size: 15px;
-    font-weight:normal;
-}
-.cartBtn{
-    display: inline-block;
-    background: coral;
-    color:#fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-}
-.cartBtn:hover{
-    background: #7a4a4a;
-}
-/*--Size Chart--*/
-  table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 300%;
-  }
-    
-  td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 10px;
-  }
-    
-  tr:nth-child(even) {
-      background-color: #dddddd;
-  }
+        .singleProduct h4 {
+            margin: 20px 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
 
-  /*--Delivery and Warranty Details  --*/
-.Delivery-Warranty-Details{
-    font-size: 12px;
-    padding: 20px 0 5px;
-    overflow: hidden;
-}
-.Delivery-Warranty-Details h4{
-    color:black;
-    margin-bottom: 5px;
-}
-.Delivery-Warranty-Details p{
-    color:#8a8a8a;
-    margin-bottom: 5px;
-}
-.D-W-col1{
-   
-    text-align: left;
-    margin-left:50px;
-}
-.D-W-col2,.D-W-col3,.D-W-col4{
-    
-    text-align: left;
-}
+        .singleProduct select {
+            display: block;
+            padding: 10px;
+            margin-top: 20px;
+        }
 
-.container1{
-    max-width: 2000px;
-    margin:auto;
-    padding-left: 0px;
-    padding-right: 25px;
-}
+        .singleProduct input {
+            width: 50px;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 20px;
+            margin-right: 10px;
+            border: 1px solid;
+        }
 
-.colSingleProduct{
-    flex-basis: 30%;
-    padding: 0px;
-    min-width: 200px;
-    margin-bottom: 50px;
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.1);
-    transition: transform 0.5s;
-}
-.colSingleProduct img{
-    width: 100%;
-}
+        .singleProduct h6 {
+            margin: 5px 0;
+            font-size: 15px;
+            font-weight: normal;
+        }
 
-.colSingleProduct:hover{
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.5);
-}
+        .cartBtn {
+            display: inline-block;
+            background: coral;
+            color: #fff;
+            padding: 8px 30px;
+            margin: 30px 0;
+            border-radius: 30px;
+            transition: background 0.5s;
+        }
+
+        .cartBtn:hover {
+            background: #7a4a4a;
+        }
+
+        /*--Size Chart--*/
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 300%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        /*--Delivery and Warranty Details  --*/
+        .Delivery-Warranty-Details {
+            font-size: 12px;
+            padding: 20px 0 5px;
+            overflow: hidden;
+        }
+
+        .Delivery-Warranty-Details h4 {
+            color: black;
+            margin-bottom: 5px;
+        }
+
+        .Delivery-Warranty-Details p {
+            color: #8a8a8a;
+            margin-bottom: 5px;
+        }
+
+        .D-W-col1 {
+
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        .D-W-col2,
+        .D-W-col3,
+        .D-W-col4 {
+
+            text-align: left;
+        }
+
+        .container1 {
+            max-width: 2000px;
+            margin: auto;
+            padding-left: 0px;
+            padding-right: 25px;
+        }
+
+        .colSingleProduct {
+            flex-basis: 30%;
+            padding: 0px;
+            min-width: 200px;
+            margin-bottom: 50px;
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s;
+        }
+
+        .colSingleProduct img {
+            width: 100%;
+        }
+
+        .colSingleProduct:hover {
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 
@@ -156,47 +172,46 @@
         <?php include('navbar.php'); ?>
         <?php include('sidebar.php'); ?>
         <div class="maincontainer">
-    
-        <?php          
-                if(isset($_GET['id'])) {
-                    $id = $_GET['id'];
-                    $query = "SELECT * FROM prod_tb WHERE prod_pk = $id";
-                    $ses_sql = mysqli_query($conn, $query); 
-                    $row = mysqli_fetch_assoc($ses_sql); 
 
-                    $e1 = $row["prod_pk"];
-                    $e2 = $row["prod_name"];
-                    $e3 = $row["prod_s35"];
-                    $e4 = $row["prod_s36"];
-                    $e5 = $row["prod_s37"];
-                    $e6 = $row["prod_s38"];
-                    $e7 = $row["prod_s39"];
-                    $e8 = $row["prod_s40"];
-                    $e9 = $row["prod_s41"];
-                    $e10 = $row["prod_s42"];
-                    $e11 = $row["prod_s43"];
-                    $e12 = $row["prod_s44"];
-                    $e13 = $row["prod_s45"];
-                    $e14 = $row["prod_brand"];
-                    $e15 = $row["prod_category"];
-                    $e16 = $row["prod_gender"];
-                    $e17 = $row["prod_year"];
-                    $e18 = $row["prod_price"];
-                    $e19 = $row["prod_discount"];
+            <?php
+            if (isset($_GET['id'])) {
+                $id = $_GET['id'];
+                $query = "SELECT * FROM prod_tb WHERE prod_pk = $id";
+                $ses_sql = mysqli_query($conn, $query);
+                $row = mysqli_fetch_assoc($ses_sql);
 
-                    $discount = convertToDiscount($e19);
-                    if($discount == 1){
-                        $discountedPrice = $e18;
-                        $displayDiscount = 0;
-                    }
-                    else{
-                        $discountedPrice = ($e18 * (100-$discount))*0.01;
-                        $displayDiscount = $discount;
-                    }
+                $e1 = $row["prod_pk"];
+                $e2 = $row["prod_name"];
+                $e3 = $row["prod_s35"];
+                $e4 = $row["prod_s36"];
+                $e5 = $row["prod_s37"];
+                $e6 = $row["prod_s38"];
+                $e7 = $row["prod_s39"];
+                $e8 = $row["prod_s40"];
+                $e9 = $row["prod_s41"];
+                $e10 = $row["prod_s42"];
+                $e11 = $row["prod_s43"];
+                $e12 = $row["prod_s44"];
+                $e13 = $row["prod_s45"];
+                $e14 = $row["prod_brand"];
+                $e15 = $row["prod_category"];
+                $e16 = $row["prod_gender"];
+                $e17 = $row["prod_year"];
+                $e18 = $row["prod_price"];
+                $e19 = $row["prod_discount"];
 
-                    $e20 = $row["prod_availability"];
-                    $e21 = $row['prod_image'];
-                    }
+                $discount = convertToDiscount($e19);
+                if ($discount == 1) {
+                    $discountedPrice = $e18;
+                    $displayDiscount = 0;
+                } else {
+                    $discountedPrice = ($e18 * (100 - $discount)) * 0.01;
+                    $displayDiscount = $discount;
+                }
+
+                $e20 = $row["prod_availability"];
+                $e21 = $row['prod_image'];
+            }
             ?>
 
             </br>
@@ -204,7 +219,7 @@
             <div class="small-container2 singleProduct">
                 <div class="row row2">
                     <div class="col2">
-                        <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($e21); ?>" width="450px"/>
+                        <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($e21); ?>" width="450px" />
                     </div>
 
                     <div class="col2">
@@ -212,41 +227,56 @@
                         <h2><?php echo $e2; ?></h2>
                         <h4 style="color: coral;">$<?php echo number_format((float) $discountedPrice, 2, '.', ''); ?></h4>
                         <!--<h4><s style="color:darkgray">$50.00</s>-20%</h4>-->
-                        <h4><s style="color:darkgray">$<?php echo $e18; ?></s><?php if($displayDiscount != 0) {echo "-"; echo $displayDiscount; echo "%";}?></p></h4>
-                        
-                        
+                        <h4><s style="color:darkgray">$<?php echo $e18; ?></s><?php if ($displayDiscount != 0) {
+                                                                                    echo "-";
+                                                                                    echo $displayDiscount;
+                                                                                    echo "%";
+                                                                                } ?></p>
+                        </h4>
+
+
                         <form action="addUserProductScript.php" method="post">
                             <input type="number" value="<?php echo $retrieve_login_user_pk; ?>" name="cart_user_pk" hidden>
                             <input type="text" value="<?php echo $e1; ?>" name="cart_prod_pk" hidden>
                             <select name="cart_size" required>
                                 <option value="" selected disabled>Select Size (Europe)</option>
-                                <?php if($e3 != 0){ ?>
+                                <?php if ($e3 != 0) { ?>
                                     <option value="35" name="cart_size">35</option>
-                                <?php } if($e4 != 0){ ?>
+                                <?php }
+                                if ($e4 != 0) { ?>
                                     <option value="36" name="cart_size">36</option>
-                                <?php } if($e5 != 0){ ?>
+                                <?php }
+                                if ($e5 != 0) { ?>
                                     <option value="37" name="cart_size">37</option>
-                                <?php } if($e6 != 0){ ?>
+                                <?php }
+                                if ($e6 != 0) { ?>
                                     <option value="38" name="cart_size">38</option>
-                                <?php } if($e7 != 0){ ?>
+                                <?php }
+                                if ($e7 != 0) { ?>
                                     <option value="39" name="cart_size">39</option>
-                                <?php } if($e8 != 0){ ?>
+                                <?php }
+                                if ($e8 != 0) { ?>
                                     <option value="40" name="cart_size">40</option>
-                                <?php } if($e9 != 0){ ?>
+                                <?php }
+                                if ($e9 != 0) { ?>
                                     <option value="41" name="cart_size">41</option>
-                                <?php } if($e10 != 0){ ?>
+                                <?php }
+                                if ($e10 != 0) { ?>
                                     <option value="42" name="cart_size">42</option>
-                                <?php } if($e11 != 0){ ?>
+                                <?php }
+                                if ($e11 != 0) { ?>
                                     <option value="43" name="cart_size">43</option>
-                                <?php } if($e12 != 0){ ?>
+                                <?php }
+                                if ($e12 != 0) { ?>
                                     <option value="44" name="cart_size">44</option>
-                                <?php } if($e13 != 0){ ?>
+                                <?php }
+                                if ($e13 != 0) { ?>
                                     <option value="45" name="cart_size">45</option>
                                 <?php }  ?>
                             </select>
                             </br>
                             <p>Quantity <input type="number" value="1" name="cart_quantity"></p>
-                            <input type="submit" value="Add to Cart" name="submit"> 
+                            <input type="submit" value="Add to Cart" name="submit">
                             <br>
                             <!--<a href="addUserProductScript.php" class="cartBtn">Add To Cart</a>-->
                         </form>
@@ -272,7 +302,7 @@
 
                         </br>
                     </div>
-                    
+
                 </div>
             </div>
             </br>
@@ -365,32 +395,32 @@
                 </div>
             </div>
 
-            <div class="small-container1" style="margin-top: 50px;" >
+            <div class="small-container1" style="margin-top: 50px;">
                 <div class="row row2">
                     <h2>Related Products</h2>
                     <p>View More</p>
                 </div>
             </div>
 
-            <div class="small-container"style="margin-top: 40px;">
+            <div class="small-container" style="margin-top: 40px;">
                 <div class="row">
                     <div class="colSingleProduct men casual vans 2018">
                         <img src="ShoesList/Shoes/27.jpg">
                         <h4>VANS Era</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$219</p>
+                        <p class="price" price-value="259" style="color: coral;">$219</p>
                         <p><s style="color:darkgray">$100.00</s>-20%</p>
                     </div>
                     <div class="colSingleProduct men casual vans 2021">
                         <img src="ShoesList/Shoes/29.jpg">
                         <h4>VANS ComfyCush Era</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$329</p>
+                        <p class="price" price-value="259" style="color: coral;">$329</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
 
                     <div class="colSingleProduct men sport addidas 2021">
                         <img src="ShoesList/Shoes/9.jpg">
                         <h4>adidas Originals NMD_R1</h4>
-                        <p class="price" price-value = "259" style="color: coral;">$649</p>
+                        <p class="price" price-value="259" style="color: coral;">$649</p>
                         <p><s style="color:darkgray">$50.00</s>-20%</p>
                     </div>
                 </div>
@@ -426,7 +456,7 @@
         </div>
     </div>
     <?php include('footer.php'); ?>
-    
+
 </body>
 
 </html>
