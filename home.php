@@ -26,7 +26,7 @@ include('session.php');
 
         .container1 .shop {
             position: absolute;
-            top: 60%;
+            top: 70%;
             left: 35%;
             transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
