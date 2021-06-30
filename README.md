@@ -16,7 +16,7 @@
 
 <h3 align="center">Shoe E-commece Website</h3>
 
-  <p align="center">Live site at: <a href="http://urbanshoes.rf.gd">urbanshoes.rf.gd</a></p>
+  <p align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Triangular%20Flag.png" alt="Triangular Flag" width="25" height="25" /> Live site at: <a href="http://urbanshoes.rf.gd">urbanshoes.rf.gd</a></p>
 
   <p align="center">An ecommerce website<br />
     <a href="https://github.com/greydelta/shoe-ecommerce-website"><strong>Explore the docs »</strong></a>
@@ -60,11 +60,19 @@
 
 ### Website flowchart:
 
+<div align="center">
+
 [![flowchart][media-flowchart]](#)
+
+</div>
 
 ### Website snapshot(s):
 
+<div align="center">
+
 [![output-1][media-output1]](#) [![output-2][media-output2]](#) [![output-3][media-output3]](#) [![output-4][media-output4]](#)
+
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
