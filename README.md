@@ -92,6 +92,8 @@
 
 #### Prerequisites
 
+1. Clone the repo into XAMPP directory > `"C:\...\xampp\htdocs\"`
+
 1. Start the Apache and MySQL module in XAMPP Control Panel
 
    [![xampp][media-xampp]](#)
